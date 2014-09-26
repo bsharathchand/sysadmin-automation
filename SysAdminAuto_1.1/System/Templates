@@ -1,0 +1,29 @@
+
+
+Template for the AtomCmdDetails file.
+++++++++++++++++++++++++++++++++++++++++++
+<Command Description;command;commandid> {";" is the delimiter}
+++++++++++++++++++++++++++++++++++++++++++
+Process Information ;ps -eaf | grep weblogic;0001-0001
+
+
+
+Template for the AtomCmdDetails file.
+++++++++++++++++++++++++++++++++++++++++++
+<commandId> {Only Single Column should present}
+++++++++++++++++++++++++++++++++++++++++++
+0001-0001
+
+
+Template for the AtomServerDetails file.
+++++++++++++++++++++++++++++++++++++++++++
+<serverId 	serverName		serverIp> {"space/tab" is the delimiter}
+++++++++++++++++++++++++++++++++++++++++++
+0001	GAQA-APP1SERVER			10.200.252.65
+
+
+Template for the MonitoredCommands file.
+++++++++++++++++++++++++++++++++++++++++++
+<Description>;<command>;<header>;<row>;<columns>;<threshold>;<monitoredElement> {";" is the delimiter}
+++++++++++++++++++++++++++++++++++++++++++
+Disk Monitoring;df -k;true;6;5;85;DISK

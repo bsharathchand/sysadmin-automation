@@ -1,0 +1,10 @@
+*.class
+*.txt
+*.html
+
+/Atom Results/*
+/AtomErrors/*
+/AtomLogs/*
+/Temp/*
+/bin/*
+

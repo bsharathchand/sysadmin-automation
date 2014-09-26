@@ -1,0 +1,51 @@
+Tempdb Utilization ;sp_helpdb tempdb,1,2;Q001-0010
+Process Information ;ps -eaf | grep weblogic;S001-0001
+Disk Utilization ;df -kh;S002-0001
+Process Statistics ;prstat -c 2 1;S003-0001
+Process Information ;ps -eaf | grep weblogic;S001-0002
+Disk Utilization ;df -kh;S002-0002
+Process Statistics ;prstat -c 2 1;S003-0002
+Process Information ;ps -eaf | grep tomcat55;S001-0003
+Disk Utilization ;df -kh;S002-0003
+Process Statistics ;prstat -c 2 1;S003-0003
+Disk Utilization ;df -kh;S001-0004
+Process Statistics ;top -bn 1;S002-0004
+Disk Utilization ;df -kh;S001-0005
+Process Statistics ;top -bn 1;S002-0005
+Disk Utilization ;df -kh;S001-0006
+Process Statistics ;top -bn 1;S002-0006
+Disk Utilization ;df -kh;S001-0007
+Process Statistics ;top -bn 1;S002-0007
+Process Information ;ps -eaf | grep apache22;S001-0008
+Disk Utilization ;df -kh;S002-0008
+Process Statistics ;prstat -c 2 1;S003-0008
+Process Information ;ps -eaf | grep apache22;S001-0009
+Disk Utilization ;df -kh;S002-0009
+Process Statistics ;prstat -c 2 1;S003-0009
+Process Information ;ps -eaf | grep weblogic;S001-0011
+Disk Utilization ;df -kh;S002-0011
+Process Statistics ; prstat -c 2 1;S003-0011
+Process Information ;ps -eaf | grep tomcat55;S001-0012
+Disk Utilization ;df -kh;S002-0012
+Process Statistics ; prstat -c 2 1;S003-0012
+Process Information ;ps -eaf | grep apache;S001-0013
+Disk Utilization ;df -kh;S002-0013
+Process Statistics ; prstat -c 2 1;S003-0013
+Process Information ;ps -eaf | grep tomcat55;S001-0014
+Disk Utilization ;df -kh;S002-0014
+Process Statistics ; prstat -c 2 1;S003-0014
+Disk Utilization ;df -kh;S001-0015
+Process Statistics ; prstat -c 2 1;S002-0015
+Process Information ;ps -eaf | grep tomcat55;S001-0016
+Process Information ;ps -eaf | grep weblogic;S002-0016
+Process Information ;ps -eaf | grep apache;S003-0016
+Disk Utilization ;df -k;S004-0016
+Process Statistics ; prstat -c 2 1;S005-0016
+Process Statistics ; du -s /apps/content/;S006-0016
+Process Statistics ; du -s /apps/WEBS/;S007-0016
+Process Statistics ; du -s /logs/;S008-0016
+Disk Utilization ;df -kh;S001-0017
+Process Statistics ; prstat -c 2 1;S002-0017
+Process Information ;ps -eaf | grep apache;S001-0018
+Disk Utilization ;df -k;S002-0018
+Process Statistics ; prstat -c 2 1;S003-0018
