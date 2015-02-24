@@ -1,7 +1,7 @@
 sysadmin-automation
 ===================
 
-### This is deprecated, a more advanced version with clean code in admin-autobot repository
+### This is deprecated, a more advanced version with clean code in admin-autobot[https://github.com/bsharathchand/admin-autobot] repository
 
 
 SAAS - System Admin task Automation Software. This is a very simple tool to monitor several machines for their health. 
